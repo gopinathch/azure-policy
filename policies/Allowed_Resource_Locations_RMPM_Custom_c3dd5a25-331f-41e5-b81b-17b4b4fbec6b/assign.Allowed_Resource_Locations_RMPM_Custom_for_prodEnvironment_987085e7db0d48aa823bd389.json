@@ -1,0 +1,54 @@
+{
+ "sku": {
+  "name": "A0",
+  "tier": "Free"
+ },
+ "properties": {
+  "displayName": "Allowed Resource Locations RMPM Custom for prodEnvironment",
+  "policyDefinitionId": "/subscriptions/afc11291-9826-46be-b852-70349146ddf8/providers/Microsoft.Authorization/policyDefinitions/c3dd5a25-331f-41e5-b81b-17b4b4fbec6b",
+  "scope": "/subscriptions/afc11291-9826-46be-b852-70349146ddf8/resourceGroups/ignite-demo-prod",
+  "notScopes": [],
+  "parameters": {
+   "listOfAllowedLocations": {
+    "value": [
+     "centralus",
+     "centralusstage",
+     "eastus",
+     "eastusstage",
+     "eastus2",
+     "eastus2stage",
+     "northcentralusstage",
+     "southcentralus",
+     "southcentralusstage",
+     "northcentralus",
+     "westcentralus",
+     "westus",
+     "westusstage",
+     "westus2",
+     "westus2stage"
+    ]
+   }
+  },
+  "metadata": {
+   "assignedBy": "Raiyan Alam",
+   "parameterScopes": {
+    "listOfAllowedLocations": "/subscriptions/afc11291-9826-46be-b852-70349146ddf8/resourceGroups/ignite-demo-prod"
+   },
+   "createdBy": "0845db2a-7e64-419d-b9f4-aecf1b46b39a",
+   "createdOn": "2020-09-02T10:32:10.6830025Z",
+   "updatedBy": "1272e3a9-7267-47f2-b163-f6fba91ebbc4",
+   "updatedOn": "2020-09-09T19:16:09.1138958Z",
+   "gitHubPolicy": {
+    "digest": "54c9715433b27e3e207a4538eccaa0d9362a4c23",
+    "repoName": "gopinathch/azure-policy",
+    "commitSha": "df81863414f682ae2b50bf9d392a3e41f5a9c5d7",
+    "runUrl": "https://github.com/gopinathch/azure-policy/actions/runs/246851245",
+    "filepath": "policies/Allowed_Resource_Locations_RMPM_Custom_c3dd5a25-331f-41e5-b81b-17b4b4fbec6b/assign.Allowed_Resource_Locations_RMPM_Custom_for_prodEnvironment_987085e7db0d48aa823bd389.json"
+   }
+  },
+  "enforcementMode": "Default"
+ },
+ "id": "/subscriptions/afc11291-9826-46be-b852-70349146ddf8/resourceGroups/ignite-demo-prod/providers/Microsoft.Authorization/policyAssignments/987085e7db0d48aa823bd389",
+ "type": "Microsoft.Authorization/policyAssignments",
+ "name": "987085e7db0d48aa823bd389"
+}

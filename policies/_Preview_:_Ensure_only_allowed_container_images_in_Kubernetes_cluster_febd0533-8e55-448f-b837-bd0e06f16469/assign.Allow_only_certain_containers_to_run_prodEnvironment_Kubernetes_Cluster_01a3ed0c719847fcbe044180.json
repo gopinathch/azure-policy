@@ -1,0 +1,37 @@
+{
+ "sku": {
+  "name": "A0",
+  "tier": "Free"
+ },
+ "properties": {
+  "displayName": "Allow only certain containers to run prodEnvironment Kubernetes Cluster",
+  "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/febd0533-8e55-448f-b837-bd0e06f16469",
+  "scope": "/subscriptions/afc11291-9826-46be-b852-70349146ddf8/resourceGroups/ignite-demo-prod",
+  "notScopes": [],
+  "parameters": {
+   "allowedContainerImagesRegex": {
+    "value": "*approved*"
+   }
+  },
+  "description": "",
+  "metadata": {
+   "assignedBy": "Raiyan Alam",
+   "parameterScopes": {},
+   "createdBy": "0845db2a-7e64-419d-b9f4-aecf1b46b39a",
+   "createdOn": "2020-09-02T07:04:16.6571884Z",
+   "updatedBy": "1272e3a9-7267-47f2-b163-f6fba91ebbc4",
+   "updatedOn": "2020-09-09T19:16:09.3922887Z",
+   "gitHubPolicy": {
+    "digest": "7a0dab11828f9ed1fc65b7c7047e6e256ff3d066",
+    "repoName": "gopinathch/azure-policy",
+    "commitSha": "df81863414f682ae2b50bf9d392a3e41f5a9c5d7",
+    "runUrl": "https://github.com/gopinathch/azure-policy/actions/runs/246851245",
+    "filepath": "policies/_Preview_:_Ensure_only_allowed_container_images_in_Kubernetes_cluster_febd0533-8e55-448f-b837-bd0e06f16469/assign.Allow_only_certain_containers_to_run_prodEnvironment_Kubernetes_Cluster_01a3ed0c719847fcbe044180.json"
+   }
+  },
+  "enforcementMode": "Default"
+ },
+ "id": "/subscriptions/afc11291-9826-46be-b852-70349146ddf8/resourceGroups/ignite-demo-prod/providers/Microsoft.Authorization/policyAssignments/01a3ed0c719847fcbe044180",
+ "type": "Microsoft.Authorization/policyAssignments",
+ "name": "01a3ed0c719847fcbe044180"
+}
